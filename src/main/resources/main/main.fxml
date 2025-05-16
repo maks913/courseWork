@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.DrinkController">
+    <AnchorPane fx:id="Main" prefHeight="430.0" prefWidth="645.0" VBox.vgrow="ALWAYS">
+        <Button fx:id="load" layoutX="150.0" layoutY="86.0" mnemonicParsing="false" onAction="#loadData"
+                prefHeight="78.0" prefWidth="92.0" text="Load"/>
+        <Button fx:id="save" layoutX="275.0" layoutY="86.0" mnemonicParsing="false" onAction="#saveData"
+                prefHeight="78.0" prefWidth="92.0" text="Save"/>
+        <Button fx:id="exit" layoutX="399.0" layoutY="86.0" mnemonicParsing="false" onAction="#exit" prefHeight="78.0"
+                prefWidth="92.0" text="Exit"/>
+        <Button fx:id="findView" layoutX="150.0" layoutY="174.0" mnemonicParsing="false" onAction="#findDrinks"
+                prefHeight="78.0" prefWidth="92.0" text="Find drinks"/>
+        <Button fx:id="sortView" layoutX="275.0" layoutY="174.0" mnemonicParsing="false" onAction="#sortDrinks"
+                prefHeight="78.0" prefWidth="92.0" text="Sort drinks"/>
+        <Button fx:id="allDrinksView" layoutX="399.0" layoutY="174.0" mnemonicParsing="false" onAction="#allDrinks"
+                prefHeight="78.0" prefWidth="92.0" text="All drinks"/>
+        <Button fx:id="add" layoutX="150.0" layoutY="268.0" mnemonicParsing="false" onAction="#addDrink"
+                prefHeight="78.0" prefWidth="92.0" text="Add drink"/>
+        <Button fx:id="delete" layoutX="275.0" layoutY="268.0" mnemonicParsing="false" onAction="#deleteDrink"
+                prefHeight="78.0" prefWidth="92.0" text="Delete"/>
+        <Button fx:id="about" layoutX="399.0" layoutY="268.0" mnemonicParsing="false" onAction="#about"
+                prefHeight="78.0" prefWidth="92.0" text="About "/>
+        <Label layoutX="303.0" layoutY="33.0" text="Drinks"/>
+        <Label layoutX="242.0" layoutY="59.0" prefHeight="17.0" prefWidth="175.0"
+               text="Managing your drink collection"/>
+    </AnchorPane>
+</VBox>

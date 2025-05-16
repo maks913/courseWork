@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.findDrinksController">
+    <AnchorPane prefHeight="383.0" prefWidth="518.0" VBox.vgrow="ALWAYS">
+        <Label layoutX="197.0" layoutY="4.0" text="Find Drinks " />
+        <Label layoutX="146.0" layoutY="27.0" text="Find the right drink for any occasion" />
+        <Pane layoutX="62.0" layoutY="65.0" prefHeight="331.0" prefWidth="361.0">
+            <Button fx:id="findByNameBtn" layoutX="241.0" layoutY="39.0" mnemonicParsing="false" onAction="#enterFindByName" text="Find" />
+            <Button fx:id="findByTypeBtn" layoutX="243.0" layoutY="110.0" mnemonicParsing="false" onAction="#enterFindByType" text="Find" />
+            <Button fx:id="findByTempBtn" layoutX="243.0" layoutY="179.0" mnemonicParsing="false" onAction="#enterFindByTemperature" text="Find" />
+            <Button fx:id="findByNRangeBtn" layoutX="243.0" layoutY="249.0" mnemonicParsing="false" onAction="#enterFindByRangePrice" text="Find" />
+            <TextField fx:id="nameDrink" layoutX="80.0" layoutY="39.0" promptText="Enter name drink" />
+            <TextField fx:id="temperatureDrink" layoutX="80.0" layoutY="179.0" promptText="Enter temperature" />
+            <TextField fx:id="typeDrink" layoutX="80.0" layoutY="109.0" promptText="Enter type drink" />
+            <TextField fx:id="fromPrice" layoutX="80.0" layoutY="249.0" prefHeight="25.0" prefWidth="61.0" promptText="From" />
+            <Label layoutX="79.0" layoutY="14.0" text="Find Drink by Name" />
+            <Label layoutX="79.0" layoutY="84.0" text="Find Drink by Type" />
+            <Label layoutX="79.0" layoutY="154.0" text="Find Drink by Temperature serving" />
+            <Label layoutX="79.0" layoutY="224.0" prefHeight="17.0" prefWidth="143.0" text="Find Drink in range price" />
+            <TextField fx:id="toPrice" layoutX="162.0" layoutY="249.0" prefHeight="25.0" prefWidth="61.0" promptText="To" />
+            <Label layoutX="149.0" layoutY="252.0" text="-" />
+        </Pane>
+    </AnchorPane>
+</VBox>

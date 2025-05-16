@@ -1,0 +1,5 @@
+1;Coca-Cola;10.0;Juice;Yes;Cold;5.0;
+3;Coca-Cola;24.1;Tea;Yes;Cold;6.0;
+4;Coca-Cola;50.0;Tea;No;Cold;7.0;
+5;Coca-Cola;100.0;Tea;Yes;Hot;8.0;
+6;Pepsi;2.0;Soda;No;Hot;9.0;

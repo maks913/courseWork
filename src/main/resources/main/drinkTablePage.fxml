@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.drinkTableController">
+    <AnchorPane VBox.vgrow="ALWAYS">
+        <TableView fx:id="drinkTable" layoutX="-4.0" layoutY="93.0" prefHeight="307.0" prefWidth="723.0">
+            <placeholder>
+                <Label text="No found Drinks" />
+            </placeholder>
+            <columns>
+                <TableColumn fx:id="ID" prefWidth="59.0" sortable="false" text="ID" />
+                <TableColumn fx:id="NAME" prefWidth="111.0" sortable="false" text="Name" />
+                <TableColumn fx:id="PRICE" prefWidth="84.0" sortable="false" text="Price" />
+                <TableColumn fx:id="TYPE" prefWidth="119.0" sortable="false" text="Type" />
+                <TableColumn fx:id="AVAILABLE" prefWidth="77.0" sortable="false" text="Available" />
+                <TableColumn fx:id="SERVING" prefWidth="167.0" resizable="false" sortable="false" text="Serving Temperature" />
+                <TableColumn fx:id="RATING" prefWidth="104.0" resizable="false" sortable="false" text="Rating" />
+            </columns>
+        </TableView>
+        <Label layoutX="327.0" layoutY="44.0" text="Drink Table" />
+    </AnchorPane>
+</VBox>

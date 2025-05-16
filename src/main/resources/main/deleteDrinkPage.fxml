@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="198.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.deleteDrinkController">
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="174.0" prefWidth="264.0" VBox.vgrow="ALWAYS">
+        <Label layoutX="94.0" layoutY="59.0" text="Delete Drink" />
+        <Button fx:id="deleteDrinkId" layoutX="171.0" layoutY="100.0" mnemonicParsing="false" onAction="#deleteDrink" text="Delete Drink" />
+        <TextField fx:id="enterId" layoutX="14.0" layoutY="100.0" promptText="Enter drink id" />
+    </AnchorPane>
+</VBox>
